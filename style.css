@@ -33,7 +33,13 @@ body {
 
 /* Card Image */
 
+.card-header {
+  position: relative;
+}
+
 .card-img {
+  position: relative;
+  z-index: 0;
   width: 18.875rem;
   height: 18.875rem;
   margin: 1.5rem;
@@ -42,15 +48,28 @@ body {
   background-size: cover;
 }
 
-.card-img:hover,
-.card-img:active {
+.view-icon {
+  width: 18.875rem;
+  height: 18.875rem;
+  margin: 0 1.5rem 1.5rem 1.5rem;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
   background-color: rgba(0, 255, 248, 0.5);
-  background-image: url("images/icon-view.svg"),
-    url("images/image-equilibrium.jpg");
-  background-size: 18%, 100%;
+  background-image: url("images/icon-view.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-blend-mode: screen;
+  opacity: 0;
+  transition: opacity 200ms;
+}
+
+.view-icon:hover,
+.view-icon:active {
+  opacity: 1;
 }
 
 /* Card Description */
