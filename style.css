@@ -1,0 +1,154 @@
+/* General styles */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  line-height: normal;
+  font-optical-sizing: auto;
+  background-color: #0d192c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* Layout */
+
+.container {
+  background-color: #15263f;
+  max-width: 21.87rem;
+  border-radius: 15px;
+  box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Card Image */
+
+.card-img {
+  width: 18.875rem;
+  height: 18.875rem;
+  margin: 1.5rem;
+  border-radius: 8px;
+  background-image: url("images/image-equilibrium.jpg");
+  background-size: cover;
+}
+
+.card-img:hover,
+.card-img:active {
+  background-color: rgba(0, 255, 248, 0.5);
+  background-image: url("images/icon-view.svg"),
+    url("images/image-equilibrium.jpg");
+  background-size: 18%, 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+}
+
+/* Card Description */
+
+.card-description {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+h1 {
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 125%;
+}
+
+h1:hover,
+h1:active {
+  color: #00fff8;
+}
+
+.description-text {
+  color: #8bacd9;
+  font-size: 1.125rem;
+  font-weight: 300;
+  line-height: 145%;
+  margin-top: 1rem;
+}
+
+/* Card Pricing and Timeframe */
+
+.card-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-price,
+.list-duration {
+  display: flex;
+  align-items: center;
+}
+
+.list-price p {
+  padding-left: 0.5rem;
+  font-weight: 600;
+  line-height: normal;
+  color: #00fff8;
+}
+
+.list-duration p {
+  padding-left: 0.5rem;
+  color: #8bacd9;
+  font-weight: 400;
+}
+
+/* Creator Info */
+
+.wrapper-creator-info {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
+  border-top: 1px solid #2e405a;
+  padding-top: 1.5rem;
+}
+
+.avatar {
+  width: 2.0625rem;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.creator-info {
+  color: #8bacd9;
+  font-weight: 400;
+}
+
+.creator-info span {
+  color: #fff;
+}
+
+.creator-info span:hover,
+.creator-info span:active {
+  color: #00fff8;
+}
+
+/* Attribution */
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+.attribution a {
+  color: #8bacd9;
+}
