@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-component-SDVlerjRND)
 - Live Site URL: [Add live site URL here](https://fem-nft-preview-card-nine.vercel.app/)
 
 ## My process
@@ -67,5 +67,5 @@ In this challenge, I primarily used rem units because I'm not quite comfortable 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Instagram - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/aloethere-anna)
+- Instagram - [@yourusername](https://www.instagram.com/divisions_in_space/)
