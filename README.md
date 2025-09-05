@@ -67,5 +67,5 @@ In this challenge, I primarily used rem units because I'm not quite comfortable 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/aloethere-anna)
-- Instagram - [@yourusername](https://www.instagram.com/divisions_in_space/)
+- Frontend Mentor - [@aloethere-anna](https://www.frontendmentor.io/profile/aloethere-anna)
+- Instagram - [@divisions_in_space](https://www.instagram.com/divisions_in_space/)
